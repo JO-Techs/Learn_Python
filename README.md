@@ -1,4 +1,4 @@
-# 🚀 PyQuest: Your Journey to Python Mastery
+#  PyQuest: Your Journey to Python Mastery
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange)
 
