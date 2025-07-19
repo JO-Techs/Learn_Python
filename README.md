@@ -2,7 +2,7 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange)
 
-Welcome to **PyQuest** – an interactive learning adventure where coding meets creativity! 🌟 Transform from Python Padawan to Code Jedi through our carefully crafted learning path.
+Welcome to **PyQuest** – an interactive learning adventure where coding meets creativity!  Transform from Python Padawan to Code Jedi through our carefully crafted learning path.
 
 ```python
 # Your first spell in the coding grimoire
@@ -11,7 +11,7 @@ print("\u2728 Welcome to Magical Python! \u2728")
 
 ---
 
-## 📜 Table of Contents
+##  Table of Contents
 - 🌌 [Cosmic Installation](#cosmic-installation)
 - 🔮 [Python Primer](#python-primer)
 - 🧙 [Core Spells (Syntax)](#core-spells-syntax)
