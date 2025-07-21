@@ -1,6 +1,6 @@
 # Connecting MySQL with Python - A Detailed Guide
 
-## 📌 Introduction
+##  Introduction
 Integrating MySQL with Python allows developers to create powerful database-driven applications. In this guide, we'll use the popular `mysql-connector-python` library to connect and interact with MySQL databases.
 
 This lecture covers:
@@ -13,7 +13,7 @@ This lecture covers:
 
 ---
 
-## 🛠️ 1. Installing the Connector
+##  1. Installing the Connector
 To connect MySQL with Python, install the **MySQL Connector/Python** package:
 
 ```bash
@@ -27,7 +27,7 @@ pip show mysql-connector-python
 
 ---
 
-## 🔌 2. Connecting to the Database
+##  2. Connecting to the Database
 ```python
 import mysql.connector
 
@@ -47,7 +47,7 @@ If the connection is successful, you’ll see something like:
 
 ---
 
-## 🧱 3. Creating a Database
+##  3. Creating a Database
 ```python
 import mysql.connector
 
@@ -70,7 +70,7 @@ for db in mycursor:
 
 ---
 
-## 📋 4. Creating a Table
+##  4. Creating a Table
 ```python
 mydb = mysql.connector.connect(
     host="localhost",
@@ -93,14 +93,14 @@ CREATE TABLE students (
 
 ---
 
-## 🧑‍🎓 5. Inserting Data
+##  5. Inserting Data
 ### Without Placeholder (Not Safe)
 ```python
 mycursor.execute("INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A')")
 mydb.commit()
 ```
 
-### With Placeholder (Safe ✅)
+### With Placeholder (Safe)
 ```python
 sql = "INSERT INTO students (name, age, grade) VALUES (%s, %s, %s)"
 val = ("Bob", 22, "B")
@@ -110,7 +110,7 @@ mydb.commit()
 
 ---
 
-## 📖 6. Reading Data (SELECT)
+##  6. Reading Data (SELECT)
 ```python
 mycursor.execute("SELECT * FROM students")
 result = mycursor.fetchall()
@@ -130,7 +130,7 @@ for row in mycursor:
 
 ---
 
-## ♻️ 7. Updating Data
+##  7. Updating Data
 ```python
 sql = "UPDATE students SET age = %s WHERE name = %s"
 val = (21, "Alice")
@@ -142,7 +142,7 @@ print(mycursor.rowcount, "record(s) updated")
 
 ---
 
-## ❌ 8. Deleting Data
+##  8. Deleting Data
 ```python
 sql = "DELETE FROM students WHERE name = %s"
 val = ("Bob",)
@@ -154,7 +154,7 @@ print(mycursor.rowcount, "record(s) deleted")
 
 ---
 
-## 🔁 9. Looping Through Records
+##  9. Looping Through Records
 ```python
 mycursor.execute("SELECT name, grade FROM students")
 
@@ -164,7 +164,7 @@ for (name, grade) in mycursor:
 
 ---
 
-## ✅ 10. Best Practices
+##  10. Best Practices
 - Always use placeholders to prevent SQL injection
 - Use `commit()` after `INSERT`, `UPDATE`, and `DELETE`
 - Use `try-except` blocks for error handling
@@ -192,13 +192,13 @@ finally:
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 Now you're equipped to:
 - Connect Python to MySQL
 - Create databases and tables
 - Perform all CRUD operations
 - Follow secure and efficient practices
 
-🔍 Want to build a full project using this? Try creating a **Student Management System**!
+ Want to build a full project using this? Try creating a **Student Management System**!
 
-Let me know if you want a template project for it. 🚀
+Let me know if you want a template project for it. 
