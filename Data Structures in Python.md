@@ -187,11 +187,10 @@ bfs('A')
 
 ## 10. Best Practices
 
-- Use lists for dynamic arrays.
-- Use tuples when immutability is required.
-- Use sets for unique element storage and set operations.
-- Use dictionaries for fast lookups and key-value mapping.
+- Lists = dynamic arrays.
+- Tuples when immutability is required.
+- Sets = unique element storage and set operations.
+- Dictionaries = fast lookups and key-value mapping.
 - Use `collections.deque` for efficient queue operations.
 - Use `heapq` for priority queue operations.
-- Use appropriate data structures for efficiency in algorithms.
 
