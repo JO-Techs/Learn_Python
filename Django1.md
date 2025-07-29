@@ -1,29 +1,29 @@
-# 📘 Django Lecture 1: Introduction to Django & Setting Up the Environment
+#  Django Lecture 1: Introduction to Django & Setting Up the Environment
 
 Welcome to Lecture 1 of our Django web development series! In this session, we’ll explore what Django is, why developers love it, and how to set it up on your local machine. By the end, you’ll have Django installed, a virtual environment ready, and your first project up and running. 🚀
 
 ---
 
-## 🧠 What is Django?
+##  What is Django?
 
 Django is a **high-level Python web framework** that promotes rapid development and clean, pragmatic design. It follows the **MTV (Model-Template-View)** architectural pattern.
 
-### 🔧 Key Features:
+###  Key Features:
 
-- 🛠️ Built-in Admin Interface  
-- 🧱 ORM (Object-Relational Mapping)  
-- 🔐 Authentication System  
-- 🔗 URL Routing  
-- 📝 Form Handling  
-- 🧩 Middleware Support  
+-  Built-in Admin Interface  
+-  ORM (Object-Relational Mapping)  
+-  Authentication System  
+-  URL Routing  
+-  Form Handling  
+-  Middleware Support  
 
 Originally built for news sites, Django is now a go-to choice for companies like **Instagram**, **Pinterest**, **Disqus**, and **Mozilla**.
 
 ---
 
-## 🚀 Why Use Django?
+##  Why Use Django?
 
-| ✅ Feature           | 🔍 Description                                                                 |
+|  Feature            |  Description                                                                    |
 |---------------------|---------------------------------------------------------------------------------|
 | Rapid Development    | Develop applications from concept to completion quickly                        |
 | Secure               | Protects against common threats like SQL injection & XSS                       |
@@ -34,7 +34,7 @@ Originally built for news sites, Django is now a go-to choice for companies like
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Make sure you have the following before starting:
 
@@ -45,9 +45,9 @@ Make sure you have the following before starting:
 
 ---
 
-## 🛠️ Step-by-Step Django Setup
+##  Step-by-Step Django Setup
 
-### 🧪 Step 1: Check Python Installation
+###  Step 1: Check Python Installation
 
 ```bash
 python --version
