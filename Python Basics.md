@@ -1,4 +1,4 @@
-# Python Basics Cheat Sheet 🐍
+# Python Basics Cheat Sheet 
 
 A concise guide to essential Python functions and concepts.
 
@@ -128,5 +128,3 @@ if x > 0 and y < 10: ...  # Logical
 del my_list[0]  # Delete
 print(type(5))  # Get type
 ```
-
-Master these basics to build a strong Python foundation! 🚀
