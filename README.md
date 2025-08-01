@@ -12,19 +12,19 @@ print("\u2728 Welcome to Magical Python! \u2728")
 ---
 
 ##  Table of Contents
-- 🌌 [Cosmic Installation](#cosmic-installation)
-- 🔮 [Python Primer](#python-primer)
-- 🧙 [Core Spells (Syntax)](#core-spells-syntax)
-- 🏰 [Data Dungeons](#data-dungeons)
-- ⚔️ [Logic Quests](#logic-quests)
-- 📂 [Scroll Management (Files)](#scroll-management-files)
-- 🐍 [Pythonic Alchemy Project](#pythonic-alchemy-project)
-- 🌠 [Roadmap](#roadmap)
-- 🤝 [Join the Guild](#join-the-guild)
+-  [Cosmic Installation](#cosmic-installation)
+-  [Python Primer](#python-primer)
+-  [Core Spells (Syntax)](#core-spells-syntax)
+-  [Data Dungeons](#data-dungeons)
+-  [Logic Quests](#logic-quests)
+-  [Scroll Management (Files)](#scroll-management-files)
+-  [Pythonic Alchemy Project](#pythonic-alchemy-project)
+-  [Roadmap](#roadmap)
+-  [Join the Guild](#join-the-guild)
 
 ---
 
-## 🌌 Cosmic Installation
+##  Cosmic Installation
 Prepare your development environment:
 
 ```bash
@@ -43,7 +43,7 @@ python3 --version
 
 ---
 
-## 🔮 Python Primer
+##  Python Primer
 ### Basic Incantations
 ```python
 # Magical variables
@@ -57,25 +57,25 @@ print(f"\U0001F52E Casting {spell_name} with {mana}% mana!")
 
 # Enchanted inputs
 quest = input("\U0001F5DD Enter your mission: ")
-print(f"🚀 Beginning quest: {quest}")
+print(f" Beginning quest: {quest}")
 ```
 
 ---
 
-## 🧙 Core Spells (Syntax)
+##  Core Spells (Syntax)
 ```python
 # Potion brewing function
 def brew_potion(ingredients, heat=100):
     """Brews a magical potion"""
-    potion = "♨️ ".join(ingredients)
-    return f"🔮 {potion} at {heat}°C"
+    potion = " ".join(ingredients)
+    return f" {potion} at {heat}°C"
 
 print(brew_potion(["unicorn hair", "moonstone"]))
 ```
 
 ---
 
-## 🏰 Data Dungeons
+##  Data Dungeons
 ```python
 # Wizard's Inventory (List)
 spell_book = ["Expelliarmus", "Wingardium Leviosa", "Lumos"]
@@ -95,7 +95,7 @@ dark_artifacts = {"Elder Wand", "Resurrection Stone", "Cloak of Invisibility"}
 
 ---
 
-## ⚔️ Logic Quests
+##  Logic Quests
 ```python
 # Sorting Hat Algorithm
 house_points = {
@@ -106,14 +106,14 @@ house_points = {
 }
 
 if any(points > 150 for points in house_points.values()):
-    print("🏆 House Cup awarded!")
+    print(" House Cup awarded!")
 else:
-    print("⚡ Continue the competition!")
+    print(" Continue the competition!")
 ```
 
 ---
 
-## 📂 Scroll Management (Files)
+##  Scroll Management (Files)
 ```python
 # Spell Archiving
 with open("ancient_spells.txt", "w") as grimoire:
@@ -121,22 +121,22 @@ with open("ancient_spells.txt", "w") as grimoire:
 
 # Spell Retrieval
 with open("ancient_spells.txt", "r") as grimoire:
-    print("📜 Forbidden Spells:")
+    print(" Forbidden Spells:")
     for spell in grimoire:
-        print(f"⚠️ {spell.strip()}")
+        print(f" {spell.strip()}")
 ```
 
 ---
 
-## 🐍 Pythonic Alchemy Project
+##  Pythonic Alchemy Project
 ### Magical Inventory System
 ```python
 def wizard_inventory():
     items = []
     while True:
-        print("\n🧙♂️ Wizard Inventory 🗝️")
+        print("\n Wizard Inventory ")
         print("1. Add Artifact\n2. Show Collection\n3. Remove Item\n4. Quit")
-        choice = input("🔮 Choose magic: ")
+        choice = input(" Choose magic: ")
         
         # Implement your magical inventory system here!
         # Hint: Use lists and dictionary operations
@@ -147,7 +147,7 @@ wizard_inventory()
 
 ---
 
-## 🌠 Roadmap
+##  Roadmap
 - [x] Basic Incantations (Syntax)
 - [ ] OOP Magic (Classes & Objects)
 - [ ] Async Sorcery (Concurrency)
@@ -157,7 +157,7 @@ wizard_inventory()
 
 ---
 
-## 🛠️ Development Setup
+##  Development Setup
 ```bash
 git clone https://github.com/yourusername/pyquest.git
 cd pyquest
@@ -169,16 +169,16 @@ pip install -r requirements.txt
 
 ---
 
-## 🤝 Join the Guild
+##  Join the Guild
 We welcome fellow code wizards! Here's how to contribute:
 
-1. 🍴 **Fork the Cauldron**
-2. ✨ **Create your Spell Branch** (`git checkout -b feature/new-spells`)
-3. 🔮 **Commit your Magic**
-4. 🧙♂️ **Push to the Branch**
-5. 📜 **Create a Pull Request**
+1.  **Fork the Cauldron**
+2.  **Create your Spell Branch** (`git checkout -b feature/new-spells`)
+3.  **Commit your Magic**
+4.  **Push to the Branch**
+5.  **Create a Pull Request**
 
-### 📜 Code Scroll Guidelines:
+###  Code Scroll Guidelines:
 ✅ Add comments like ancient runes
 ✅ Keep spells (functions) under 20 lines
 ✅ Test all potions (code) before brewing
@@ -186,15 +186,15 @@ We welcome fellow code wizards! Here's how to contribute:
 
 ---
 
-## 📜 License: MIT
+##  License: MIT
 
-🌍 **Community Forum:** [Join Our Discord](#)
+ **Community Forum:** [Join Our Discord](#)
 
-📚 **Recommended Tomes:**
+ **Recommended Tomes:**
 - *Automate the Boring Stuff with Python*
 - *Fluent Python*
 - *Python Crash Course*
 
 ---
 
-<div align="center"> ✨ May the Code be with you! ✨<br> <sub>Built with ❤️ and way too much ☕</sub> </div>
+<div align="center">  May the Code be with you! <br> <sub>Built with ❤ and way too much </sub> </div>
