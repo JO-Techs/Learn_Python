@@ -1,10 +1,10 @@
-# 📘 Django Project & App Structure – Complete Developer Guide
+#  Django Project & App Structure – Complete Developer Guide
 
 This guide walks you through the structure of a Django project and app, explaining how to set it up and what each part does.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Understand how to:
 - Create and structure a Django project
@@ -15,7 +15,7 @@ Understand how to:
 
 ---
 
-## 🛠️ 1. Creating the Django Project
+##  1. Creating the Django Project
 
 ```bash
 django-admin startproject myproject
@@ -36,7 +36,7 @@ myproject/
 
 ---
 
-## 📦 2. Creating a Django App
+##  2. Creating a Django App
 
 ```bash
 python manage.py startapp myapp
@@ -57,7 +57,7 @@ myapp/
 
 ---
 
-## ⚙️ 3. Project Settings (`settings.py`)
+##  3. Project Settings (`settings.py`)
 
 ```python
 # Add app
@@ -83,7 +83,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 ---
 
-## 🧩 4. Models (`models.py`)
+##  4. Models (`models.py`)
 
 ```python
 from django.db import models
@@ -104,7 +104,7 @@ python manage.py migrate
 
 ---
 
-## 👁️ 5. Views (`views.py`)
+##  5. Views (`views.py`)
 
 ```python
 from django.shortcuts import render
@@ -117,7 +117,7 @@ def home(request):
 
 ---
 
-## 🌐 6. URLs
+##  6. URLs
 
 ### Project-level `myproject/urls.py`
 
