@@ -179,10 +179,10 @@ We welcome fellow code wizards! Here's how to contribute:
 5.  **Create a Pull Request**
 
 ###  Code Scroll Guidelines:
-✅ Add comments like ancient runes
-✅ Keep spells (functions) under 20 lines
-✅ Test all potions (code) before brewing
-✅ Follow PEP 8 magical standards
+- Add comments like ancient runes
+- Keep spells (functions) under 20 lines
+- Test all potions (code) before brewing
+- Follow PEP 8 magical standards
 
 ---
 
